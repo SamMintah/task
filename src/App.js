@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 import Menu from "./components/Menu/Menu";
 import TasksSection from "./components/TasksSection/TasksSection";
 import ModalCreateTask from "./components/Utilities/ModalTask";
-import { Task } from "./interfaces";
 import { useAppDispatch, useAppSelector } from "./store/hooks";
 import { modalActions } from "./store/Modal.store";
 import { tasksActions } from "./store/Tasks.store";
@@ -19,7 +18,7 @@ const App = () => {
     dispatch(modalActions.closeModalCreateTask());
   };
 
-  const createNewTaskHandler = (task: Task) => {
+  const createNewTaskHandler = (task) => {
     dispatch(tasksActions.addNewTask(task));
   };
 
