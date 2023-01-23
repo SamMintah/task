@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { Task } from "../../interfaces";
 import { useAppSelector } from "../../store/hooks";
 import useDescriptionTitle from "../hooks/useDescriptionTitle";
-import LayoutRoutes from "../Utilities/LayoutRoutes";
+import LayoutRoutes from "../utilities/LayoutRoutes";
 
 const TaskOnly = () => {
   const params = useParams();

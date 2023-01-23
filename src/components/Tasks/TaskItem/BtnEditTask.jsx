@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useAppDispatch } from "../../../store/hooks";
 import { tasksActions } from "../../../store/Tasks.store";
-import ModalCreateTask from "../../Utilities/ModalTask";
+import ModalCreateTask from "../../utilities/ModalTask";
 import { ReactComponent as OptionsSvg } from "../../../assets/options.svg";
 
 const BtnEditTask = ({ task }) => {

@@ -1,8 +1,8 @@
 import React from "react";
 import { useAppSelector } from "../../store/hooks";
-import useCompletedTasks from "../hooks/useCompletedTasks";
+import useCompletedTasks from "../hooks/useCompletedTask";
 import useDescriptionTitle from "../hooks/useDescriptionTitle";
-import LayoutRoutes from "../Utilities/LayoutRoutes";
+import LayoutRoutes from "../utilities/LayoutRoutes";
 
 const DoneTasks= ({
   done,

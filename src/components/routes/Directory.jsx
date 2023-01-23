@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useAppSelector } from "../../store/hooks";
 import useDescriptionTitle from "../hooks/useDescriptionTitle";
-import LayoutRoutes from "../Utilities/LayoutRoutes";
+import LayoutRoutes from "../utilities/LayoutRoutes";
 
 const Directory = () => {
   const tasks = useAppSelector((state) => state.tasks.tasks);

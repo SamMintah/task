@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import useVisibility from "../hooks/useVisibility";
 import { ReactComponent as IconBell } from "../../assets/bell.svg";
 import useTodayTasks from "../hooks/useTodayTasks";
-import useCompletedTasks from "../hooks/useCompletedTasks";
+import useCompletedTasks from "../hooks/useCompletedTask";
 import { Link } from "react-router-dom";
 
 const classHasNotification =

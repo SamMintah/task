@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useAppSelector } from "../../store/hooks";
-import useCompletedTasks from "../hooks/useCompletedTasks";
+import useCompletedTasks from "../hooks/useCompletedTask";
 import useTodayTasks from "../hooks/useTodayTasks";
 
 const TasksDone= () => {

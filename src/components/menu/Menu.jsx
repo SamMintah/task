@@ -1,10 +1,10 @@
 import React from "react";
 import { useAppDispatch, useAppSelector } from "../../store/hooks";
 import { menusActions } from "../../store/Menu.store";
-import BtnAddTask from "../Utilities/BtnAddTask";
+import BtnAddTask from "../utilities/BtnAddTask";
 import Directories from "./Directories/Directories";
 import NavLinks from "./NavLinks";
-import LayoutMenus from "../Utilities/LayoutMenus";
+import LayoutMenus from "../utilities/LayoutRoutes";
 
 const classLinkActive =
   "text-rose-600 bg-violet-100 border-r-4 border-rose-500 dark:bg-slate-700/[.2] dark:text-slate-200 dark:border-slate-200";

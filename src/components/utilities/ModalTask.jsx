@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-import { Task } from "../../interfaces";
 import { useAppSelector } from "../../store/hooks";
 import Modal from "./Modal";
 

@@ -6,7 +6,7 @@ import Home from "../Routes/Home";
 import ImportantTasks from "../Routes/ImportantTasks";
 import SearchResults from "../Routes/SearchResults";
 import TaskOnly from "../Routes/TaskOnly";
-import TodaysTasks from "../Routes/TodaysTasks";
+import TodaysTasks from "../Routes/TodayTask";
 import HeaderTasks from "./HeaderTasks";
 
 const TasksSection= () => {

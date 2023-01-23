@@ -1,10 +1,10 @@
 
 import React from "react";
-import AccountData from "./components/AccountSection/AccountData";
+import AccountData from "./components/helpers/AccountData"
 import Footer from "./components/Footer";
-import Menu from "./components/Menu/Menu";
-import TasksSection from "./components/TasksSection/TasksSection";
-import ModalCreateTask from "./components/Utilities/ModalTask";
+import Menu from "./components/menu/Menu";
+import TasksSection from "./components/Tasks/TasksSection";
+import ModalCreateTask from "./components/utilities/ModalTask";
 import { useAppDispatch, useAppSelector } from "./store/hooks";
 import { modalActions } from "./store/Modal.store";
 import { tasksActions } from "./store/Tasks.store";

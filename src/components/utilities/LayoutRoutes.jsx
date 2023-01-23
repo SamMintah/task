@@ -2,18 +2,18 @@ import React, { useState } from "react";
 import { useAppDispatch } from "../../store/hooks";
 import { modalActions } from "../../store/Modal.store";
 import useSortTasks from "../hooks/useSortTasks";
-import ButtonsSort from "../TasksSection/ButtonsSort";
-import TaskItem from "../TasksSection/TaskItem/TaskItem";
+import ButtonsSort from "../Tasks/ButtonsSort";
+import TaskItem from "../Tasks/TaskItem/TaskItem";
 
 
 
-const LayoutRoutes = ({ title, tasks }) => {
+const LayoutRoutes = ({ title, tasks = []  }) => {
   const [isListInView1, setIsListInView1] = useState(false);
 
   const dispatch = useAppDispatch();
 
   const { sortedBy, setSortedBy, sortedTasks } = useSortTasks(tasks);
-
+  console.log(tasks)
   const openModalHandler = () => {
     dispatch(modalActions.openModalCreateTask());
   };

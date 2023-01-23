@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useAppDispatch } from "../../../store/hooks";
 import { tasksActions } from "../../../store/Tasks.store";
-import ModalConfirm from "../../Utilities/ModalConfirm";
+import ModalConfirm from "../../utilities/ModalConfirm";
 import { ReactComponent as Trash } from "../../../assets/trash.svg";
 
 const BtnDeleteTask = ({ taskId }) => {

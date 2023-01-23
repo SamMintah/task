@@ -4,8 +4,8 @@ import { useAppDispatch } from "../../../store/hooks";
 import { tasksActions } from "../../../store/Tasks.store";
 import Trash from "../../../assets/trash.svg";
 import Edit from "../../../assets/edit.svg";
-import ModalConfirm from "../../Utilities/ModalConfirm";
-import ModalDirectory from "../../Utilities/ModalDirectory";
+import ModalConfirm from "../../utilities/ModalConfirm";
+import ModalDirectory from "../../utilities/ModalDirectory";
 
 const ItemDirectory = ({ dir, classActive }) => {
   const route = useLocation();

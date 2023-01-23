@@ -1,5 +1,5 @@
 import React from "react";
-import BtnAddTask from "../Utilities/BtnAddTask";
+import BtnAddTask from "../utilities/BtnAddTask";
 import { ReactComponent as MenuIcon } from "../../assets/menu.svg";
 import avatar1 from "../../assets/avatar-1.jpg";
 import SearchField from "./SearchField";
