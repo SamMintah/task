@@ -3,10 +3,7 @@ import { Link } from "react-router-dom";
 import InfosTask from "./InfosTask";
 import ActionsTaskItem from "./ActionsTaskItem";
 
-const TaskItem = ({
-  isListInView1,
-  task,
-}) => {
+const TaskItem = ({isListInView1,task}) => {
   return (
     <>
       <li key={task.id}>

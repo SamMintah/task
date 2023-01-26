@@ -1,4 +1,3 @@
-import React, { ReactNode } from "react";
 import useScreenMedia from "../hooks/useScreenMedia";
 
 const LayoutMenus= ({ menuOpen, children, closeMenuHandler, className }) => {
